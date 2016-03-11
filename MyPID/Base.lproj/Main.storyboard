@@ -16,38 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-Rd-vkm">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="login"/>
-                                <connections>
-                                    <action selector="clickToLoginWithFaceBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rT1-Hq-Uyt"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="gs6-Rd-vkm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3x2-0m-WcE"/>
-                            <constraint firstItem="gs6-Rd-vkm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pka-l7-Xum"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="gs6-Rd-vkm"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="3x2-0m-WcE"/>
-                                <exclude reference="Pka-l7-Xum"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="gs6-Rd-vkm"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="3x2-0m-WcE"/>
-                                <include reference="Pka-l7-Xum"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="EIy-Oz-CYZ"/>
                 </viewController>
@@ -72,7 +41,4 @@
             <point key="canvasLocation" x="-115.5" y="-379.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="login" width="202" height="46"/>
-    </resources>
 </document>

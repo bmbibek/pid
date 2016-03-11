@@ -14,6 +14,9 @@
 		296C2EFD1C90894100DFDAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296C2EFB1C90894100DFDAA3 /* LaunchScreen.storyboard */; };
 		296C2F081C90894100DFDAA3 /* MyPIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C2F071C90894100DFDAA3 /* MyPIDTests.swift */; };
 		296C2F131C90894200DFDAA3 /* MyPIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C2F121C90894200DFDAA3 /* MyPIDUITests.swift */; };
+		29BA40311C93475B00F76F39 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BA40301C93475B00F76F39 /* FBSDKCoreKit.framework */; };
+		29BA40371C934CED00F76F39 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BA40351C934CED00F76F39 /* Bolts.framework */; };
+		29BA40381C934CED00F76F39 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BA40361C934CED00F76F39 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		296C2F0E1C90894200DFDAA3 /* thepid.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thepid.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C2F121C90894200DFDAA3 /* MyPIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPIDUITests.swift; sourceTree = "<group>"; };
 		296C2F141C90894200DFDAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BA40301C93475B00F76F39 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		29BA40341C934BD000F76F39 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		29BA40351C934CED00F76F39 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		29BA40361C934CED00F76F39 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BA40311C93475B00F76F39 /* FBSDKCoreKit.framework in Frameworks */,
+				29BA40371C934CED00F76F39 /* Bolts.framework in Frameworks */,
+				29BA40381C934CED00F76F39 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +107,14 @@
 		296C2EF11C90894100DFDAA3 /* MyPID */ = {
 			isa = PBXGroup;
 			children = (
+				29BA402F1C93468200F76F39 /* Frameworks */,
 				296C2EF21C90894100DFDAA3 /* AppDelegate.swift */,
 				296C2EF41C90894100DFDAA3 /* ViewController.swift */,
 				296C2EF61C90894100DFDAA3 /* Main.storyboard */,
 				296C2EF91C90894100DFDAA3 /* Assets.xcassets */,
 				296C2EFB1C90894100DFDAA3 /* LaunchScreen.storyboard */,
 				296C2EFE1C90894100DFDAA3 /* Info.plist */,
+				29BA40341C934BD000F76F39 /* Bridging-Header.h */,
 			);
 			path = MyPID;
 			sourceTree = "<group>";
@@ -123,6 +135,16 @@
 				296C2F141C90894200DFDAA3 /* Info.plist */,
 			);
 			path = MyPIDUITests;
+			sourceTree = "<group>";
+		};
+		29BA402F1C93468200F76F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29BA40351C934CED00F76F39 /* Bolts.framework */,
+				29BA40361C934CED00F76F39 /* FBSDKLoginKit.framework */,
+				29BA40301C93475B00F76F39 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,10 +419,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyPID",
+				);
 				INFOPLIST_FILE = MyPID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.MyPID;
+				PRODUCT_BUNDLE_IDENTIFIER = org.thepid;
 				PRODUCT_NAME = thepid;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Jayprakashkumar/Desktop/HDBackup/pid/MyPID/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -408,10 +436,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyPID",
+				);
 				INFOPLIST_FILE = MyPID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.MyPID;
+				PRODUCT_BUNDLE_IDENTIFIER = org.thepid;
 				PRODUCT_NAME = thepid;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Jayprakashkumar/Desktop/HDBackup/pid/MyPID/Bridging-Header.h";
 			};
 			name = Release;
 		};
