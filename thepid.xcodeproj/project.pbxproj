@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		296C2EEF1C90894100DFDAA3 /* MyPID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		296C2EEF1C90894100DFDAA3 /* thepid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thepid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C2EF21C90894100DFDAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296C2EF41C90894100DFDAA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		296C2EF71C90894100DFDAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		296C2EF91C90894100DFDAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296C2EFC1C90894100DFDAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		296C2EFE1C90894100DFDAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		296C2F031C90894100DFDAA3 /* MyPIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		296C2F031C90894100DFDAA3 /* thepid.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thepid.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C2F071C90894100DFDAA3 /* MyPIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPIDTests.swift; sourceTree = "<group>"; };
 		296C2F091C90894100DFDAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		296C2F0E1C90894200DFDAA3 /* MyPIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		296C2F0E1C90894200DFDAA3 /* thepid.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thepid.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C2F121C90894200DFDAA3 /* MyPIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPIDUITests.swift; sourceTree = "<group>"; };
 		296C2F141C90894200DFDAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		296C2EF01C90894100DFDAA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				296C2EEF1C90894100DFDAA3 /* MyPID.app */,
-				296C2F031C90894100DFDAA3 /* MyPIDTests.xctest */,
-				296C2F0E1C90894200DFDAA3 /* MyPIDUITests.xctest */,
+				296C2EEF1C90894100DFDAA3 /* thepid.app */,
+				296C2F031C90894100DFDAA3 /* thepid.xctest */,
+				296C2F0E1C90894200DFDAA3 /* thepid.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		296C2EEE1C90894100DFDAA3 /* MyPID */ = {
+		296C2EEE1C90894100DFDAA3 /* thepid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 296C2F171C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "MyPID" */;
+			buildConfigurationList = 296C2F171C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "thepid" */;
 			buildPhases = (
 				296C2EEB1C90894100DFDAA3 /* Sources */,
 				296C2EEC1C90894100DFDAA3 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = MyPID;
+			name = thepid;
 			productName = MyPID;
-			productReference = 296C2EEF1C90894100DFDAA3 /* MyPID.app */;
+			productReference = 296C2EEF1C90894100DFDAA3 /* thepid.app */;
 			productType = "com.apple.product-type.application";
 		};
-		296C2F021C90894100DFDAA3 /* MyPIDTests */ = {
+		296C2F021C90894100DFDAA3 /* thepidTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 296C2F1A1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "MyPIDTests" */;
+			buildConfigurationList = 296C2F1A1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "thepidTests" */;
 			buildPhases = (
 				296C2EFF1C90894100DFDAA3 /* Sources */,
 				296C2F001C90894100DFDAA3 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				296C2F051C90894100DFDAA3 /* PBXTargetDependency */,
 			);
-			name = MyPIDTests;
+			name = thepidTests;
 			productName = MyPIDTests;
-			productReference = 296C2F031C90894100DFDAA3 /* MyPIDTests.xctest */;
+			productReference = 296C2F031C90894100DFDAA3 /* thepid.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		296C2F0D1C90894200DFDAA3 /* MyPIDUITests */ = {
+		296C2F0D1C90894200DFDAA3 /* thepidUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 296C2F1D1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "MyPIDUITests" */;
+			buildConfigurationList = 296C2F1D1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "thepidUITests" */;
 			buildPhases = (
 				296C2F0A1C90894200DFDAA3 /* Sources */,
 				296C2F0B1C90894200DFDAA3 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				296C2F101C90894200DFDAA3 /* PBXTargetDependency */,
 			);
-			name = MyPIDUITests;
+			name = thepidUITests;
 			productName = MyPIDUITests;
-			productReference = 296C2F0E1C90894200DFDAA3 /* MyPIDUITests.xctest */;
+			productReference = 296C2F0E1C90894200DFDAA3 /* thepid.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 296C2EEA1C90894100DFDAA3 /* Build configuration list for PBXProject "MyPID" */;
+			buildConfigurationList = 296C2EEA1C90894100DFDAA3 /* Build configuration list for PBXProject "thepid" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				296C2EEE1C90894100DFDAA3 /* MyPID */,
-				296C2F021C90894100DFDAA3 /* MyPIDTests */,
-				296C2F0D1C90894200DFDAA3 /* MyPIDUITests */,
+				296C2EEE1C90894100DFDAA3 /* thepid */,
+				296C2F021C90894100DFDAA3 /* thepidTests */,
+				296C2F0D1C90894200DFDAA3 /* thepidUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		296C2F051C90894100DFDAA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 296C2EEE1C90894100DFDAA3 /* MyPID */;
+			target = 296C2EEE1C90894100DFDAA3 /* thepid */;
 			targetProxy = 296C2F041C90894100DFDAA3 /* PBXContainerItemProxy */;
 		};
 		296C2F101C90894200DFDAA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 296C2EEE1C90894100DFDAA3 /* MyPID */;
+			target = 296C2EEE1C90894100DFDAA3 /* thepid */;
 			targetProxy = 296C2F0F1C90894200DFDAA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,7 +400,7 @@
 				INFOPLIST_FILE = MyPID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyPID;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = thepid;
 			};
 			name = Debug;
 		};
@@ -411,7 +411,7 @@
 				INFOPLIST_FILE = MyPID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyPID;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = thepid;
 			};
 			name = Release;
 		};
@@ -422,8 +422,8 @@
 				INFOPLIST_FILE = MyPIDTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyPIDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPID.app/MyPID";
+				PRODUCT_NAME = thepid;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thepid.app/thepid";
 			};
 			name = Debug;
 		};
@@ -434,8 +434,8 @@
 				INFOPLIST_FILE = MyPIDTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyPIDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPID.app/MyPID";
+				PRODUCT_NAME = thepid;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thepid.app/thepid";
 			};
 			name = Release;
 		};
@@ -445,7 +445,7 @@
 				INFOPLIST_FILE = MyPIDUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyPIDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = thepid;
 				TEST_TARGET_NAME = MyPID;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +457,7 @@
 				INFOPLIST_FILE = MyPIDUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyPIDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = thepid;
 				TEST_TARGET_NAME = MyPID;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +466,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		296C2EEA1C90894100DFDAA3 /* Build configuration list for PBXProject "MyPID" */ = {
+		296C2EEA1C90894100DFDAA3 /* Build configuration list for PBXProject "thepid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				296C2F151C90894200DFDAA3 /* Debug */,
@@ -475,29 +475,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		296C2F171C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "MyPID" */ = {
+		296C2F171C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "thepid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				296C2F181C90894200DFDAA3 /* Debug */,
 				296C2F191C90894200DFDAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		296C2F1A1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "MyPIDTests" */ = {
+		296C2F1A1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "thepidTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				296C2F1B1C90894200DFDAA3 /* Debug */,
 				296C2F1C1C90894200DFDAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		296C2F1D1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "MyPIDUITests" */ = {
+		296C2F1D1C90894200DFDAA3 /* Build configuration list for PBXNativeTarget "thepidUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				296C2F1E1C90894200DFDAA3 /* Debug */,
 				296C2F1F1C90894200DFDAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

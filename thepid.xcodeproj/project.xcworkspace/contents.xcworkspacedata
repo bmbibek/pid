@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyPID.xcodeproj">
+      location = "self:/Users/Jayprakashkumar/Desktop/HDBackup/pid/thepid.xcodeproj">
    </FileRef>
 </Workspace>
