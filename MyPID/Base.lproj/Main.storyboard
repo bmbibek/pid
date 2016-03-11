@@ -8,7 +8,7 @@
         <!--LogIn Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="LogIn Page" id="BYZ-38-t0r" customClass="ViewController" customModule="MyPID" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LogIn Page" id="BYZ-38-t0r" customClass="ViewController" customModule="thepid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,7 +16,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-Rd-vkm">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="login"/>
+                                <connections>
+                                    <action selector="clickToLoginWithFaceBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rT1-Hq-Uyt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gs6-Rd-vkm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3x2-0m-WcE"/>
+                            <constraint firstItem="gs6-Rd-vkm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pka-l7-Xum"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gs6-Rd-vkm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3x2-0m-WcE"/>
+                                <exclude reference="Pka-l7-Xum"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="gs6-Rd-vkm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="3x2-0m-WcE"/>
+                                <include reference="Pka-l7-Xum"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="EIy-Oz-CYZ"/>
                 </viewController>
@@ -38,6 +69,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JpJ-8y-kx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-115.5" y="-379.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="login" width="202" height="46"/>
+    </resources>
 </document>
