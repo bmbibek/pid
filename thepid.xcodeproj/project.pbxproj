@@ -428,7 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.thepid;
 				PRODUCT_NAME = thepid;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Jayprakashkumar/Desktop/HDBackup/pid/MyPID/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MyPID/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -445,7 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.thepid;
 				PRODUCT_NAME = thepid;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Jayprakashkumar/Desktop/HDBackup/pid/MyPID/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MyPID/Bridging-Header.h";
 			};
 			name = Release;
 		};
