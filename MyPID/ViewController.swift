@@ -11,10 +11,7 @@ import UIKit
 
 class ViewController: UIViewController , FBSDKLoginButtonDelegate {
 
-    @IBAction func clickToLoginWithFaceBook(sender: AnyObject) {
-        
-        
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,6 +22,12 @@ class ViewController: UIViewController , FBSDKLoginButtonDelegate {
             loginView.center = self.view.center
             loginView.readPermissions = ["public_profile", "email", "user_friends"]
             loginView.delegate = self
+        }
+        else
+        {
+            let masterView = self.storyboard?.instantiateViewControllerWithIdentifier("HomeView") as! HomeViewController
+            self.navigationController?.pushViewController(masterView, animated: true)
+        
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -42,15 +45,20 @@ class ViewController: UIViewController , FBSDKLoginButtonDelegate {
         if ((error) != nil)
         {
             // Process error
+             print("User loin s1")
         }
         else if result.isCancelled {
             // Handle cancellations
+             print("User loin s2")
         }
         else {
             // If you ask for multiple permissions at once, you
             // should check if specific permissions missing
             if result.grantedPermissions.contains("email")
             {
+                let masterView = self.storyboard?.instantiateViewControllerWithIdentifier("HomeView") as! HomeViewController
+                self.navigationController?.pushViewController(masterView, animated: true)
+                print("User loin s3")
                 // Do work
             }
         }
